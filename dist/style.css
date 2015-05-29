@@ -31,14 +31,7 @@
 	margin: 10px 30px 10px 30px;
 	background-color: gray;
 	text-align: center;
-}
-
-.album button {
-	height: 65%;
-	width: 100%;
-	background: url(http://i110.photobucket.com/albums/n114/corsiphoto/photos-part2/dog-162.jpg);
-	background-size: cover;
-	background-position: center;
+	font-weight: bold;
 }
 
 #one {
@@ -57,9 +50,37 @@
 	background-position: center;
 }
 
+#three {
+	height: 65%;
+	width: 100%;
+	background: url(http://i667.photobucket.com/albums/vv39/marie58_bucket/Dogs/tumblr_mwfs0eFeS01s5juixo1_500.jpg);
+	background-size: cover;
+	background-position: center;
+}
 
+#four {
+	height: 65%;
+	width: 100%;
+	background: url(http://i0006.photobucket.com/albums/0006/findstuff22/Best%20Images/Animals/6a81f2da.jpg);
+	background-size: cover;
+	background-position: center;
+}
 
+#five {
+	height: 65%;
+	width: 100%;
+	background: url(http://i1228.photobucket.com/albums/ee443/aneesha_scott-morton/cute-puppies-wallpaper-1280x960-1001037.jpg);
+	background-size: cover;
+	background-position: center;
+}
 
+#six {
+	height: 65%;
+	width: 100%;
+	background: url(http://i110.photobucket.com/albums/n114/corsiphoto/photos-part2/dog-162.jpg);
+	background-size: cover;
+	background-position: center;
+}
 
 
 
