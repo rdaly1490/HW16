@@ -11,33 +11,38 @@
 #main-page {
 	height: 600px;
 	width: 100%;
+	background-color: #51bcf6;
 }
 
 #albums {
 	height: 500px;
 	width: 80%;
-	background-color: blue;
+	background-color: #51bcf6;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#row-one {
-	width:80%;
-	height:45%;
-	margin-left: auto;
 	padding-top: 20px;
-}
-
-#row-two {
-	width:80%;
-	height: 45%;
-	margin-left: auto;
+	box-sizing: border-box;
 }
 
 .album {
 	height: 200px;
 	width: 20%;
 	float: left;
-	margin: 0px 30px 30px 0px;
-	background-color: green;
+	margin: 10px 30px 10px 30px;
+	background-color: gray;
+	text-align: center;
 }
+
+.album button {
+	height: 65%;
+	width: 100%;
+	background: url(http://i110.photobucket.com/albums/n114/corsiphoto/photos-part2/dog-162.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
