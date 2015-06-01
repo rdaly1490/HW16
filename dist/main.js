@@ -6,18 +6,27 @@ var $albumFive = $("#five");
 var $albumSix = $("#six");
 
 $("#sidebar").hide();
-$("#one p").hide();
 $albumOne.hide();
-
-$albumOne.on("click", displayAlbumOne);
-$albumTwo.on("click", displayAlbumTwo);
-$albumThree.on("click", displayAlbumThree);
-$albumFour.on("click", displayAlbumFour);
-$albumFive.on("click", displayAlbumFive);
-$albumSix.on("click", displayAlbumSix);
+$albumTwo.hide();
+$albumThree.hide();
+$albumFour.hide();
+$albumFive.hide();
+$albumSix.hide();
 
 
 $(".album a").on("click", function(e) {
+	var $target = $(e.target);
+	console.log($target.attr("href"));
+	var targetName = $target.attr("href");
+	$("#albums .album").hide();
+	$(targetName).show();
+	// $("#sidebar").show();
+
+
+});
+
+
+$("#sidebar a").on("click", function(e) {
 	var $target = $(e.target);
 	console.log($target.attr("href"));
 	var targetName = $target.attr("href");
@@ -27,9 +36,6 @@ $(".album a").on("click", function(e) {
 
 
 });
-
-
-
 
 
 

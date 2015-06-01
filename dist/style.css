@@ -9,19 +9,20 @@
   	vertical-align: middle;
 }
 #main-page {
-	height: 600px;
+/*	height: 600px;
 	width: 100%;
-	background-color: #51bcf6;
+	background-color: #51bcf6;*/
 }
 
 #albums {
-	height: 500px;
-	width: 80%;
+	height: 600px;
+	width: 100%;
 	background-color: #51bcf6;
-	margin-left: auto;
-	margin-right: auto;
+/*	margin-left: auto;
+	margin-right: auto;*/
 	padding-top: 20px;
 	box-sizing: border-box;
+/*	clear:left;*/
 }
 
 .album {
@@ -37,7 +38,7 @@
 #aOne {
 	height: 65%;
 	width: 100%;
-	background: url(http://i667.photobucket.com/albums/vv39/marie58_bucket/Dogs/tumblr_n0sps7JQrD1qewacoo1_500.jpg);
+	background: url(http://www.hercampus.com/sites/default/files/2014/10/05/Sweet-puppy-sitting.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -45,7 +46,7 @@
 #aTwo {
 	height: 65%;
 	width: 100%;
-	background: url(http://i973.photobucket.com/albums/ae220/missdeviousone/cute%20animals/15.jpg);
+	background: url(https://thenypost.files.wordpress.com/2013/10/kitten.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -53,7 +54,7 @@
 #aThree {
 	height: 65%;
 	width: 100%;
-	background: url(http://i667.photobucket.com/albums/vv39/marie58_bucket/Dogs/tumblr_mwfs0eFeS01s5juixo1_500.jpg);
+	background: url(http://www.somepets.com/wp-content/uploads/2014/04/cute-baby-octopus1.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -61,7 +62,7 @@
 #aFour {
 	height: 65%;
 	width: 100%;
-	background: url(http://i0006.photobucket.com/albums/0006/findstuff22/Best%20Images/Animals/6a81f2da.jpg);
+	background: url(https://c4.staticflickr.com/8/7227/7227294334_382401ae0c_b.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -69,7 +70,7 @@
 #aFive {
 	height: 65%;
 	width: 100%;
-	background: url(http://i1228.photobucket.com/albums/ee443/aneesha_scott-morton/cute-puppies-wallpaper-1280x960-1001037.jpg);
+	background: url(https://grahamten.files.wordpress.com/2011/04/zoo_baby_otters1.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -77,16 +78,17 @@
 #aSix {
 	height: 65%;
 	width: 100%;
-	background: url(http://i110.photobucket.com/albums/n114/corsiphoto/photos-part2/dog-162.jpg);
+	background: url(http://www.randomne55.com/wp-content/uploads/2012/11/baby-pandas-cuccling.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 #sidebar {
-	height:100%;
+	height: 500px;
 	width:30%;
 	background-color: green;
-	padding-top: 30%
+	padding-top: 30%;
+	/*box-sizing: border-box;*/
 }
 
 #sidebar div {
@@ -108,3 +110,159 @@
 	display:block;
 	margin-top: 20px;
 }
+
+#one div{
+	width:20%;
+	height:200px;
+	margin-top: 150px;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#one div:nth-child(1) {
+	background: url(http://www.hercampus.com/sites/default/files/2014/10/05/Sweet-puppy-sitting.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-left: 100px;
+}
+#one div:nth-child(2) {
+	background: url(http://www.clickerzoneuk.co.uk/cz/wp-content/uploads/2010/10/PuppySmall.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#one div:nth-child(3) {
+	background: url(https://lh5.ggpht.com/wAGD0ZKPLCAfKtKxUzxhQY_19EoBhWak8PX52HmnIweJjV1bRGyZotUcJ_Vibgnd0A=h900);
+	background-size: cover;
+	background-position: center;
+}
+
+#two div{
+	width:20%;
+	height:200px;
+	margin-top: 150px;
+	background-color: red;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#two div:nth-child(1) {
+	background: url(https://thenypost.files.wordpress.com/2013/10/kitten.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-left: 100px;
+}
+#two div:nth-child(2) {
+	background: url(http://images4.fanpop.com/image/photos/16100000/Cute-Kitten-kittens-16123796-1280-800.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#two div:nth-child(3) {
+	background: url(https://40.media.tumblr.com/12366774065191d9ebb955527b816cca/tumblr_nnadatA9c51qz5vvao1_400.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#three div{
+	width:20%;
+	height:200px;
+	margin-top: 150px;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#three div:nth-child(1) {
+	background: url(http://www.somepets.com/wp-content/uploads/2014/04/cute-baby-octopus1.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-left: 100px;
+}
+#three div:nth-child(2) {
+	background: url(https://s-media-cache-ak0.pinimg.com/736x/e9/22/5f/e9225fb1eceff7c4becef4b80539e18c.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#three div:nth-child(3) {
+	background: url(http://i.imgur.com/mPeUQFF.jpg?1);
+	background-size: cover;
+	background-position: center;
+}
+
+#four div{
+	width:20%;
+	height:200px;
+	margin-top: 150px;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#four div:nth-child(1) {
+	background: url(https://c4.staticflickr.com/8/7227/7227294334_382401ae0c_b.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-left: 100px;
+}
+#four div:nth-child(2) {
+	background: url(http://i.livescience.com/images/i/000/044/849/i02/snow-monkey-baby-1-120511.jpg?1336767970);
+	background-size: cover;
+	background-position: center;
+}
+#four div:nth-child(3) {
+	background: url(https://s-media-cache-ak0.pinimg.com/236x/1e/fa/a2/1efaa2e7892daf3998d8a22956a98639.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#five div{
+	width:20%;
+	height:200px;
+	margin-top: 150px;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#five div:nth-child(1) {
+	background: url(https://grahamten.files.wordpress.com/2011/04/zoo_baby_otters1.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-left: 100px;
+}
+#five div:nth-child(2) {
+	background: url(http://montereybayaquarium.typepad.com/.a/6a00e54f1141728834012877aae7b0970c-320wi);
+	background-size: cover;
+	background-position: center;
+}
+#five div:nth-child(3) {
+	background: url(http://galleries.gothamistllc.com/asset/52e82f2907fa4e5ff3d5aca1/web_gallery/Monterey_BabyOtters_06.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#six div{
+	width:20%;
+	height:200px;
+	margin-top: 150px;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#six div:nth-child(1) {
+	background: url(http://www.randomne55.com/wp-content/uploads/2012/11/baby-pandas-cuccling.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-left: 100px;
+}
+#six div:nth-child(2) {
+	background: url(http://i.huffpost.com/gen/1342502/thumbs/o-PANDA-CUB-900.jpg?6);
+	background-size: cover;
+	background-position: center;
+}
+#six div:nth-child(3) {
+	background: url(http://www.meiguoxing.com/images/Panda_Baby.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
