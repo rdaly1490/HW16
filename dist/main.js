@@ -38,7 +38,17 @@ $("#sidebar a").on("click", function(e) {
 
 });
 
+$("#albums .enter-album a").on("click", function(e) {
+	var $target = $(e.target).parent();
+	console.log($target);
+	$("#albums .enter-album a").parent().hide();
+	$target.show();
+	$target.css("width", "450px");
+	$target.css("height", "450px");
+	$target.css("marginTop", "40px");
+	$target.css("marginLeft", "40px");
 
+});
 
 
 

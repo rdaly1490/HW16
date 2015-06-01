@@ -113,6 +113,10 @@
 	margin-left: 40px;
 }
 
+.enter-album {
+	text-align: center;
+}
+
 #one div:nth-child(1) {
 	background: url(http://www.hercampus.com/sites/default/files/2014/10/05/Sweet-puppy-sitting.jpg);
 	background-size: cover;
@@ -255,8 +259,6 @@
 	background-size: cover;
 	background-position: center;
 }
-
-
 
 
 
