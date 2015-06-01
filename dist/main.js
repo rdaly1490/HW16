@@ -49,33 +49,3 @@ $("#albums .enter-album a").on("click", function(e) {
 	$target.css("marginLeft", "40px");
 
 });
-
-
-
-
-
-
-
-
-
-function displayAlbumOne() {
-	$("#sidebar").show();
-
-}
-function displayAlbumTwo() {
-	
-}
-function displayAlbumThree() {
-	
-}
-function displayAlbumFour() {
-	
-}
-function displayAlbumFive() {
-	
-}
-function displayAlbumSix() {
-	
-}
-
-//one event listener for class of button and use if else to determine whats dispalyed/happens?
