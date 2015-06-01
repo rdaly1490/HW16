@@ -20,7 +20,10 @@ $(".album a").on("click", function(e) {
 	var targetName = $target.attr("href");
 	$("#albums .album").hide();
 	$(targetName).show();
-	// $("#sidebar").show();
+	$("#albums").css("float", "right");
+	$("#albums").css("width", "70%");
+	$("#sidebar").css("float", "left");
+	$("#sidebar").show();
 
 
 });
@@ -30,10 +33,8 @@ $("#sidebar a").on("click", function(e) {
 	var $target = $(e.target);
 	console.log($target.attr("href"));
 	var targetName = $target.attr("href");
-	$("#main-page .album").hide();
+	$("#albums .enter-album").hide();
 	$(targetName).show();
-	$("#sidebar").show();
-
 
 });
 

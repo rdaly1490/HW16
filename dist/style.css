@@ -8,11 +8,6 @@
 	line-height: 100px;
   	vertical-align: middle;
 }
-#main-page {
-/*	height: 600px;
-	width: 100%;
-	background-color: #51bcf6;*/
-}
 
 #albums {
 	height: 600px;
@@ -22,7 +17,6 @@
 	margin-right: auto;*/
 	padding-top: 20px;
 	box-sizing: border-box;
-/*	clear:left;*/
 }
 
 .album {
@@ -84,11 +78,11 @@
 }
 
 #sidebar {
-	height: 500px;
+	height: 600px;
 	width:30%;
 	background-color: green;
 	padding-top: 30%;
-	/*box-sizing: border-box;*/
+	box-sizing: border-box;
 }
 
 #sidebar div {
